@@ -190,6 +190,7 @@ def main():
 
         if is_cat_turn:
             if counter ==  10:
+                # Si llega a 10 turnos gana el gato
                 winner = "Cat"
                 game_over = True
                 cat_win_sound.play()
